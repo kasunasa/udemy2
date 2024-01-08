@@ -1,14 +1,14 @@
-import Head from 'next/head';
-import Link from 'next/link';
+import React from 'react';
 
-export default function firstPost() {
+const FirstPost = () => {
+  // ここにコンポーネントの内容を記述する
   return (
     <div>
-      <Head>
-        <title>最初の投稿</title>
-      </Head>
-      <h1>最初の投稿</h1>
-      <Link href='/'>ホームへ戻る</Link>
+      {/* コンポーネントの内容 */}
+      <h1>First Post</h1>
+      <p>This is the content of the first post.</p>
     </div>
   );
-}
+};
+
+export default FirstPost;
